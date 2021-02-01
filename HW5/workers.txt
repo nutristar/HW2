@@ -1,0 +1,5 @@
+ivan    21000
+Vasili  15000
+Max     100500
+Mary    1000000
+Dimon   7500
