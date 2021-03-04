@@ -4,9 +4,13 @@
  Для заполнения списка элементов необходимо использовать функцию input().
 """
 spis = [1, "vasili", {False: 333}, True, "babuin"]
-ln=(len(spis)//2)*2
+"""ln=(len(spis)//2)*2
 for i in range(0,ln,2):
     spis[i],spis[i+1]=spis[i+1],spis[i]
    # i=i+2
 print(spis)
-#print(ln)
+#print(ln)"""
+
+for i in range(1,len(spis),2):
+    spis.insert(i-1,spis.pop(i))
+print(spis)
